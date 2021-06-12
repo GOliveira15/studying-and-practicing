@@ -42,6 +42,7 @@ header a
     background-color: white;
     border-radius: 10px;
     padding: 50px;
+    width: 500px;
 }
 
 #side
@@ -53,9 +54,39 @@ header a
     margin-left: 25px;
 }
 
+#form
+{
+    margin-top: 30px;
+}
+
+#form button
+{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    padding: 2px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.02);
+    cursor: pointer;
+}
+
+.formsection
+{
+    margin-bottom: 10px;
+}
+
+#footer
+{
+    margin-top: 100px;
+}
+
 footer
 {
-    position: absolute;
+    position: static;
 
     left: 0;
     bottom: 0;
