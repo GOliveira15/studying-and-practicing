@@ -11,7 +11,7 @@ body
 
 header
 {
-    padding: 50px;
+    padding: 100px 50px 70px 50px;
     text-align: center;
 }
 
@@ -61,7 +61,7 @@ header a
 
 #form button
 {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100px;
     height: 30px;
     font-size: 14px;
@@ -90,6 +90,20 @@ footer
 
     left: 0;
     bottom: 0;
+    
+    width: 100%;
+    padding: 25px;
+
+    background-color: white;
+    text-align: center;
+}
+
+nav
+{
+    position: static;
+
+    left: 0;
+    top: 0;
     
     width: 100%;
     padding: 25px;
